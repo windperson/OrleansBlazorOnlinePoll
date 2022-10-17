@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{005F3D63-864D-4465-A686-B81F17C85DE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{B6C0B04F-D7A7-4BDE-8446-5AF72F8E08EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CA44E4DA-6416-4871-BACB-A116F5CDA56E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{26030A4A-10CA-4F6C-BDC1-54A6840BFD72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grains", "Grains", "{B42DE8CC-B620-4FB6-BD84-151834D18AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Server", "src\Frontend\BlazorPoll\Server\BlazorPoll.Server.csproj", "{ACC7F19E-45DB-4C6F-8A2E-1BFD48185EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Client", "src\Frontend\BlazorPoll\Client\BlazorPoll.Client.csproj", "{B90987EA-BF35-4136-B79B-4E6BB6EA368F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Shared", "src\Frontend\BlazorPoll\Shared\BlazorPoll.Shared.csproj", "{A71C4761-6ADE-4535-8A31-D5F978E37A24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WasmHost", "WasmHost", "{6C64AAB6-14C6-4949-A410-6F7B7AFB8BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACC7F19E-45DB-4C6F-8A2E-1BFD48185EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC7F19E-45DB-4C6F-8A2E-1BFD48185EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC7F19E-45DB-4C6F-8A2E-1BFD48185EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC7F19E-45DB-4C6F-8A2E-1BFD48185EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90987EA-BF35-4136-B79B-4E6BB6EA368F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90987EA-BF35-4136-B79B-4E6BB6EA368F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90987EA-BF35-4136-B79B-4E6BB6EA368F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90987EA-BF35-4136-B79B-4E6BB6EA368F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71C4761-6ADE-4535-8A31-D5F978E37A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71C4761-6ADE-4535-8A31-D5F978E37A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71C4761-6ADE-4535-8A31-D5F978E37A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71C4761-6ADE-4535-8A31-D5F978E37A24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA44E4DA-6416-4871-BACB-A116F5CDA56E} = {005F3D63-864D-4465-A686-B81F17C85DE7}
+		{B42DE8CC-B620-4FB6-BD84-151834D18AD2} = {B6C0B04F-D7A7-4BDE-8446-5AF72F8E08EA}
+		{ACC7F19E-45DB-4C6F-8A2E-1BFD48185EE4} = {6C64AAB6-14C6-4949-A410-6F7B7AFB8BBE}
+		{B90987EA-BF35-4136-B79B-4E6BB6EA368F} = {CA44E4DA-6416-4871-BACB-A116F5CDA56E}
+		{A71C4761-6ADE-4535-8A31-D5F978E37A24} = {26030A4A-10CA-4F6C-BDC1-54A6840BFD72}
+		{6C64AAB6-14C6-4949-A410-6F7B7AFB8BBE} = {B6C0B04F-D7A7-4BDE-8446-5AF72F8E08EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1096120-A398-448D-9832-9C9DDE132201}
+	EndGlobalSection
+EndGlobal
