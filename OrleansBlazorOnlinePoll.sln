@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{26030A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grains", "Grains", "{B42DE8CC-B620-4FB6-BD84-151834D18AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Server", "src\Frontend\BlazorPoll\Server\BlazorPoll.Server.csproj", "{ACC7F19E-45DB-4C6F-8A2E-1BFD48185EE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Server", "src\Backend\WasmHost\BlazorPoll.Server\BlazorPoll.Server.csproj", "{ACC7F19E-45DB-4C6F-8A2E-1BFD48185EE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Client", "src\Frontend\BlazorPoll\Client\BlazorPoll.Client.csproj", "{B90987EA-BF35-4136-B79B-4E6BB6EA368F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Client", "src\Frontend\BlazorPoll.Client\BlazorPoll.Client.csproj", "{B90987EA-BF35-4136-B79B-4E6BB6EA368F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Shared", "src\Frontend\BlazorPoll\Shared\BlazorPoll.Shared.csproj", "{A71C4761-6ADE-4535-8A31-D5F978E37A24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPoll.Shared", "src\Shared\BlazorPoll.Shared\BlazorPoll.Shared.csproj", "{A71C4761-6ADE-4535-8A31-D5F978E37A24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WasmHost", "WasmHost", "{6C64AAB6-14C6-4949-A410-6F7B7AFB8BBE}"
 EndProject
